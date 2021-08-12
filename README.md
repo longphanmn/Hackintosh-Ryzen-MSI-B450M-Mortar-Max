@@ -1,6 +1,7 @@
 # Ryzentosh
 MSI B450M Mortar Max - OpenCore EFI<br/>
-OpenCore 0.7.1<br/>
+OpenCore 0.7.2<br/>
+Big Sur 11.5.2<br/>
 <br/><br/>
 Mainboard	B450 Mortar Max<br/>
 CPU	Ryzen 7 3700X<br/>
