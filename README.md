@@ -25,8 +25,6 @@ PS: If you're using same specs as above just copy EFI folder to your EFI partiti
 
 ### SMBIOS
 
-Selected: `MacPro1,1`
-
 Don't forget to change your device uuid.
 Go to <https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#platforminfo> For information on setting up SMBIOS platform info
   
