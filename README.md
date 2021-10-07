@@ -13,7 +13,7 @@ OpenCore EFI
 | Board    |            MSI B450M Mortar Max |
 | Ethernet |      Realtek® RTL8111H-CG |
 
-- OpenCore: v0.7.3
+- OpenCore: v0.7.4
 - MacOS: v11.6 BigSur
 
 ## Guide
