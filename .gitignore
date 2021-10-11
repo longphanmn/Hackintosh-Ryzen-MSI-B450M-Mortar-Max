@@ -5,3 +5,5 @@
 .vscode
 EFI/Microsoft
 APPLE
+.fseventsd
+.Spotlight*
