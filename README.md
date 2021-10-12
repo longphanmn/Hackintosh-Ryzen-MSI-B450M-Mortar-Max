@@ -7,10 +7,10 @@ OpenCore EFI
 | Name     |                     Model |
 | :------- | ------------------------: |
 | CPU      |             Ryzen 7 3700x |
-| GPU      |               Sapphire RX 560 4GB or MSI RX 580 8GB |
+| GPU      | RX 460 ~ RX 590 (All polaris cards) |
 | SSD      | Samsung 970 EVO |
 | WiFi     |  Broadcom BCM43xx |
-| Board    |            MSI B450M Mortar Max |
+| Board    |       MSI B450M Mortar (Max) |
 | Ethernet |      Realtek® RTL8111H-CG |
 
 - OpenCore: v0.7.4
@@ -27,4 +27,4 @@ PS: If you're using same specs as above just copy EFI folder to your EFI partiti
 
 Don't forget to change your device uuid.
 Go to <https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#platforminfo> For information on setting up SMBIOS platform info
-  
+
