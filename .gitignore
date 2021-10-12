@@ -1,0 +1,9 @@
+.DS_Store
+._*
+*.empty
+.idea
+.vscode
+EFI/Microsoft
+APPLE
+.fseventsd
+.Spotlight*
