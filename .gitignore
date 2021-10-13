@@ -3,7 +3,7 @@
 *.empty
 .idea
 .vscode
-EFI/Microsoft
+Microsoft
 APPLE
 .fseventsd
 .Spotlight*
