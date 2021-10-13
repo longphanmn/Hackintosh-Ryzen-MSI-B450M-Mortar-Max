@@ -7,7 +7,7 @@ OpenCore EFI
 | Name     |                     Model |
 | :------- | ------------------------: |
 | CPU      |             Ryzen 7 3700x |
-| GPU      |               Sapphire RX 560 4GB or MSI RX 580 8GB |
+| GPU      |               AMD Polaris Cards |
 | SSD      | Samsung 970 EVO |
 | WiFi     |  Broadcom BCM43xx |
 | Board    |            MSI B450M Mortar Max |
