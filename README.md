@@ -7,14 +7,14 @@ OpenCore EFI
 | Name     |                     Model |
 | :------- | ------------------------: |
 | CPU      |             Ryzen 7 3700x |
-| GPU      |               AMD Polaris Cards |
+| GPU      |               AMD Polaris |
 | SSD      | Samsung 970 EVO |
 | WiFi     |  Broadcom BCM43xx |
 | Board    |            MSI B450M Mortar Max |
 | Ethernet |      Realtek® RTL8111H-CG |
 
 - OpenCore: v0.7.4
-- MacOS: v11.6 BigSur
+- MacOS: v12.0 Monterey
 
 ## Guide
 
