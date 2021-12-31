@@ -221,6 +221,17 @@
         <dict>
             <key>Add</key>
             <dict>
+                <key>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,1,1/0,0</string>
+                    <key>built-in</key>
+                    <data>AQ==</data>
+                    <key>device_type</key>
+                    <string>Non-Volatile memory controller</string>
+                    <key>model</key>
+                    <string>E12 NVMe Controller</string>
+                </dict>
                 <key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x4,0x0)/Pci(0x0,0x0)</key>
                 <dict>
                     <key>AAPL,slot-name</key>
@@ -242,17 +253,6 @@
                     <string>Network controller</string>
                     <key>model</key>
                     <string>BCM4360 802.11ac Wireless Network Adapter</string>
-                </dict>
-                <key>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)</key>
-                <dict>
-                    <key>AAPL,slot-name</key>
-                    <string>Internal@0,1,1/0,0</string>
-                    <key>built-in</key>
-                    <data>AQ==</data>
-                    <key>device_type</key>
-                    <string>Non-Volatile memory controller</string>
-                    <key>model</key>
-                    <string>E12 NVMe Controller</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)</key>
                 <dict>
@@ -286,7 +286,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.6</string>
+                    <string>V1.5.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -304,7 +304,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.7</string>
+                    <string>V1.2.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -376,7 +376,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.5</string>
+                    <string>V1.6.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -412,7 +412,7 @@
                     <key>BundlePath</key>
                     <string>BrcmBluetoothInjector.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.0</string>
+                    <string>V2.6.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -430,7 +430,7 @@
                     <key>BundlePath</key>
                     <string>BrcmFirmwareData.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.0</string>
+                    <string>V2.6.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -448,7 +448,7 @@
                     <key>BundlePath</key>
                     <string>BrcmPatchRAM3.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.0</string>
+                    <string>V2.6.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -502,7 +502,7 @@
                     <key>BundlePath</key>
                     <string>RealtekRTL8111.kext</string>
                     <key>Comment</key>
-                    <string>V2.4.0</string>
+                    <string>V2.4.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -520,7 +520,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.4</string>
+                    <string>V1.5.5</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -532,13 +532,13 @@
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
-             	<dict>
+                <dict>
                     <key>Arch</key>
                     <string>x86_64</string>
                     <key>BundlePath</key>
                     <string>RestrictEvents.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1.0.5</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -556,7 +556,7 @@
                     <key>BundlePath</key>
                     <string>AMDRyzenCPUPowerManagement.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V0.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -574,7 +574,7 @@
                     <key>BundlePath</key>
                     <string>SMCAMDProcessor.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1567,6 +1567,8 @@
                 <false/>
                 <key>ProvideConsoleGop</key>
                 <true/>
+                <key>ReconnectGraphicsOnConnect</key>
+                <false/>
                 <key>ReconnectOnResChange</key>
                 <false/>
                 <key>ReplaceTabWithSpace</key>
@@ -1575,10 +1577,12 @@
                 <string>Max</string>
                 <key>SanitiseClearScreen</key>
                 <false/>
-                <key>UgaPassThrough</key>
-                <false/>
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
+                <key>UIScale</key>
+                <integer>-1</integer>
+                <key>UgaPassThrough</key>
+                <false/>
             </dict>
             <key>ProtocolOverrides</key>
             <dict>
@@ -1627,6 +1631,8 @@
                 <false/>
                 <key>EnableVectorAcceleration</key>
                 <true/>
+                <key>EnableVmx</key>
+                <false/>
                 <key>ExitBootServicesDelay</key>
                 <integer>0</integer>
                 <key>ForceOcWriteFlash</key>
